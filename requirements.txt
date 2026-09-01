@@ -1,0 +1,21 @@
+# ASM Validation Module — Python dependencies
+#
+# This module uses only the Python standard library.
+# No pip packages are required.
+#
+# Standard library modules used: json, sys, argparse, ipaddress,
+# subprocess, shutil, platform, pathlib
+#
+# Python version: 3.10+ (uses modern type-hint-friendly syntax; not tested below 3.10)
+#
+# ----------------------------------------------------------------------------
+# EXTERNAL TOOLS REQUIRED (not Python packages — install separately, see README)
+# ----------------------------------------------------------------------------
+# httpx  (ProjectDiscovery) — tested against v1.10.0
+# naabu  (ProjectDiscovery) — tested against v2.6.1
+# nuclei (ProjectDiscovery) — tested against v3.11.1 (uses -jsonl flag; v2 used -json)
+# nmap                      — tested against v7.991
+#
+# These must be installed and discoverable on PATH (or via Go's GOPATH/bin
+# for httpx/naabu, or common OS-specific install locations for nmap).
+# See README.md "Installing external tools" section for install commands.
